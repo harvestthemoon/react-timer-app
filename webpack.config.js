@@ -27,7 +27,8 @@ module.exports = {
       Main: 'app/components/Main.js',
       Navigation: 'app/components/Navigation.js',
       Timer: 'app/components/Timer.js',
-      Countdown: 'app/components/Countdown.js'
+      Countdown: 'app/components/Countdown.js',
+      Clock: 'app/components/Clock.js'
     },
     extensions: ['', '.js', '.jsx']
   },
