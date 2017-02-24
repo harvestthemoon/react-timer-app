@@ -1,0 +1,18 @@
+.top-bar {
+	background-color: $nav-background;
+	color: $nav-text-color;
+
+	ul {
+		background-color: transparent;
+
+		.menu-text {
+			color: $nav-text-color;
+		}
+	}
+
+	.text-container {
+		display: block;
+		line-height: 1;
+		padding: 0.7rem 1rem;
+	}
+}
