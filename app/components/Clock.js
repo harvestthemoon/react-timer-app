@@ -5,7 +5,7 @@ export default class Clock extends React.Component {
 		super(props);
 	}
 
-	formatSeconds = totalSeconds => {
+	formatSeconds(totalSeconds) {
 		let seconds = totalSeconds % 60;
 		let minutes = Math.floor(totalSeconds / 60);
 

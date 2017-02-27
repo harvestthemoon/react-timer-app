@@ -7,7 +7,7 @@ export default class CountdownForm extends React.Component {
 		this.onSubmit = this.onSubmit.bind(this);
 	}
 
-	onSubmit = e => {
+	onSubmit(e) {
 		e.preventDefault();
 		const strSeconds = this.refs.seconds.value;
 
