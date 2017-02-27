@@ -80,7 +80,7 @@ export default class Countdown extends React.Component {
 		return (
 			<div className="countdown">
 				<h1 className="page-title">Countdown App</h1>
-				<Clock totalSeconds={this.state.count} />
+				<Clock totalSeconds={count} />
 				{renderControlArea()}
 			</div>
 		);
